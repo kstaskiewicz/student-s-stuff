@@ -1,0 +1,18 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1100px;
+  margin: auto;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  min-width: 500px;
+}
+
+.vl {
+  border-left: 3px solid black;
+  height: 500px;
+  float: right;
+}
