@@ -1,0 +1,380 @@
+MATCH (f:Film {Ranking: "1"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "2"}),(g:Gatunek {Gatunek: "Komedia"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "2"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "2"}),(g:Gatunek {Gatunek: "Biograficzny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "3"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "4"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "4"}),(g:Gatunek {Gatunek: "Gangsterski"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "5"}),(g:Gatunek {Gatunek: "Dramat sądowy"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "6"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "6"}),(g:Gatunek {Gatunek: "Komedia"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "7"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "7"}),(g:Gatunek {Gatunek: "Psychologiczny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "8"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "8"}),(g:Gatunek {Gatunek: "Gangsterski"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "9"}),(g:Gatunek {Gatunek: "Fantasy"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "9"}),(g:Gatunek {Gatunek: "Przygodowy"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "10"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "10"}),(g:Gatunek {Gatunek: "Wojenny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "11"}),(g:Gatunek {Gatunek: "Gangsterski"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "12"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "12"}),(g:Gatunek {Gatunek: "Komedia"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "12"}),(g:Gatunek {Gatunek: "Wojenny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "13"}),(g:Gatunek {Gatunek: "Kryminał"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "13"}),(g:Gatunek {Gatunek: "Thriller"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "14"}),(g:Gatunek {Gatunek: "Fantasy"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "14"}),(g:Gatunek {Gatunek: "Przygodowy"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "15"}),(g:Gatunek {Gatunek: "Thriller"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "15"}),(g:Gatunek {Gatunek: "Psychologiczny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "16"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "16"}),(g:Gatunek {Gatunek: "Kryminał"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "17"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "17"}),(g:Gatunek {Gatunek: "Gangsterski"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "18"}),(g:Gatunek {Gatunek: "Biograficzny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "18"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "18"}),(g:Gatunek {Gatunek: "Wojenny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "19"}),(g:Gatunek {Gatunek: "Biograficzny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "19"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "20"}),(g:Gatunek {Gatunek: "Surrealistyczny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "20"}),(g:Gatunek {Gatunek: "Thriller"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "20"}),(g:Gatunek {Gatunek: "Sci-Fi"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "21"}),(g:Gatunek {Gatunek: "Western"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "22"}),(g:Gatunek {Gatunek: "Thriller"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "23"}),(g:Gatunek {Gatunek: "Animacja"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "23"}),(g:Gatunek {Gatunek: "Familijny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "24"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "24"}),(g:Gatunek {Gatunek: "Gangsterski"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "25"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "26"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "26"}),(g:Gatunek {Gatunek: "Thriller"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "27"}),(g:Gatunek {Gatunek: "Animacja"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "27"}),(g:Gatunek {Gatunek: "Familijny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "27"}),(g:Gatunek {Gatunek: "Przygodowy"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "28"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "29"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "29"}),(g:Gatunek {Gatunek: "Kryminał"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "30"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "30"}),(g:Gatunek {Gatunek: "Komedia"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "31"}),(g:Gatunek {Gatunek: "Dramat historyczny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "32"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "32"}),(g:Gatunek {Gatunek: "Wojenny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "33"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "33"}),(g:Gatunek {Gatunek: "Wojenny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "34"}),(g:Gatunek {Gatunek: "Dramat historyczny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "35"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "35"}),(g:Gatunek {Gatunek: "Muzyczny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "36"}),(g:Gatunek {Gatunek: "Dramat obyczajowy"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "37"}),(g:Gatunek {Gatunek: "Biograficzny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "37"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "37"}),(g:Gatunek {Gatunek: "Wojenny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "38"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "38"}),(g:Gatunek {Gatunek: "Wojenny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "39"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "40"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "40"}),(g:Gatunek {Gatunek: "Thriller"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "41"}),(g:Gatunek {Gatunek: "Akcja"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "41"}),(g:Gatunek {Gatunek: "Sci-Fi"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "42"}),(g:Gatunek {Gatunek: "Przygodowy"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "42"}),(g:Gatunek {Gatunek: "Sci-Fi"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "43"}),(g:Gatunek {Gatunek: "Western"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "44"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "44"}),(g:Gatunek {Gatunek: "Gangsterski"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "45"}),(g:Gatunek {Gatunek: "Przygodowy"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "45"}),(g:Gatunek {Gatunek: "Sci-Fi"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "46"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "47"}),(g:Gatunek {Gatunek: "Dramat"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "47"}),(g:Gatunek {Gatunek: "Gangsterski"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "48"}),(g:Gatunek {Gatunek: "Biograficzny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "48"}),(g:Gatunek {Gatunek: "Dramat obyczajowy"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "49"}),(g:Gatunek {Gatunek: "Biograficzny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "49"}),(g:Gatunek {Gatunek: "Muzyczny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "50"}),(g:Gatunek {Gatunek: "Komedia"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "50"}),(g:Gatunek {Gatunek: "Sensacyjny"})
+CREATE (f)-[rg :Gatunek]->(g);
+MATCH (f:Film {Ranking: "1"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "2"}),(p:Produkcja {Kraj_produkcji: "Francja"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "3"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "4"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "5"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "6"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "7"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "8"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "9"}),(p:Produkcja {Kraj_produkcji: "Nowa Zelandia"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "9"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "10"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "11"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "12"}),(p:Produkcja {Kraj_produkcji: "Włochy"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "13"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "14"}),(p:Produkcja {Kraj_produkcji: "Nowa Zelandia"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "14"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "15"}),(p:Produkcja {Kraj_produkcji: "Niemcy"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "15"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "16"}),(p:Produkcja {Kraj_produkcji: "Kanada"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "16"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "17"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "18"}),(p:Produkcja {Kraj_produkcji: "Francja"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "18"}),(p:Produkcja {Kraj_produkcji: "Niemcy"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "18"}),(p:Produkcja {Kraj_produkcji: "Polska"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "18"}),(p:Produkcja {Kraj_produkcji: "Wielka Brytania"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "19"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "20"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "20"}),(p:Produkcja {Kraj_produkcji: "Wielka Brytania"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "21"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "22"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "23"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "24"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "25"}),(p:Produkcja {Kraj_produkcji: "Niemcy"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "25"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "26"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "27"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "28"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "29"}),(p:Produkcja {Kraj_produkcji: "Francja"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "29"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "30"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "31"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "31"}),(p:Produkcja {Kraj_produkcji: "Wielka Brytania"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "32"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "33"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "33"}),(p:Produkcja {Kraj_produkcji: "Wielka Brytania"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "34"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "35"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "36"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "37"}),(p:Produkcja {Kraj_produkcji: "Australia"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "37"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "38"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "39"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "40"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "40"}),(p:Produkcja {Kraj_produkcji: "Wielka Brytania"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "41"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "42"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "43"}),(p:Produkcja {Kraj_produkcji: "Hiszpania"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "43"}),(p:Produkcja {Kraj_produkcji: "Włochy"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "43"}),(p:Produkcja {Kraj_produkcji: "RFN"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "44"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "44"}),(p:Produkcja {Kraj_produkcji: "Włochy"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "45"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "46"}),(p:Produkcja {Kraj_produkcji: "Indie"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "46"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "46"}),(p:Produkcja {Kraj_produkcji: "Zjednoczone Emiraty Arabskie"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "47"}),(p:Produkcja {Kraj_produkcji: "Francja"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "47"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "48"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "49"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (f:Film {Ranking: "50"}),(p:Produkcja {Kraj_produkcji: "USA"})
+CREATE (f)-[rp :Produkcja]->(p);
+MATCH (o:Osoba{Imie: "Mieczysława"}),(f:Film {Tytul: "Skazani na Shawshank"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Mieczysława"}),(f:Film {Tytul: "Naga broń: Z akt wydziału specjalnego"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Seweryn"}),(f:Film {Tytul: "Nietykalni"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Seweryn"}),(f:Film {Tytul: "Amadeusz"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Łukasz"}),(f:Film {Tytul: "Zielona mila"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Łukasz"}),(f:Film {Tytul: "W pogoni za szczęściem"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Kinga"}),(f:Film {Tytul: "Ojciec chrzestny"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Kinga"}),(f:Film {Tytul: "Kasyno"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Julianna"}),(f:Film {Tytul: "Dwunastu gniewnych ludzi"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Julianna"}),(f:Film {Tytul: "Służące"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Maksymilian"}),(f:Film {Tytul: "Forrest Gump"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Maksymilian"}),(f:Film {Tytul: "Gwiezdne wojny: Część VI - Powrót Jedi"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Krystyna"}),(f:Film {Tytul: "Lot nad kukułczym gniazdem"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Krystyna"}),(f:Film {Tytul: "Dawno temu w Ameryce"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Andzej"}),(f:Film {Tytul: "Ojciec chrzestny II"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Andrzej"}),(f:Film {Tytul: "Dobry, zły i brzydki"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Kacper"}),(f:Film {Tytul: "Władca Pierścieni: Powrót króla"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Kacper"}),(f:Film {Tytul: "Gwiezdne wojny: Część V - Imperium kontratakuje"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Bożydar"}),(f:Film {Tytul: "Lista Schindlera"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Bożydar"}),(f:Film {Tytul: "Avengers: Wojna bez granic"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Klara"}),(f:Film {Tytul: "Pulp Fiction"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Klara"}),(f:Film {Tytul: "Prestiż"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Halina"}),(f:Film {Tytul: "Życie jest piękne"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Halina"}),(f:Film {Tytul: "Zapach kobiety"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Michał"}),(f:Film {Tytul: "Siedem"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Michał"}),(f:Film {Tytul: "Czas Apokalipsy"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Krzysztof"}),(f:Film {Tytul: "Władca Pierścieni: Dwie wieże"})
+CREATE (o)-[rr :Ulubiony_film]->(f);
+MATCH (o:Osoba{Imie: "Krzysztof"}),(f:Film {Tytul: "Buntownik z wyboru"})
+CREATE (o)-[rr :Ulubiony_film]->(f);

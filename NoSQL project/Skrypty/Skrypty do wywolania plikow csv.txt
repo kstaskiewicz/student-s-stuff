@@ -1,0 +1,19 @@
+LOAD CSV WITH HEADERS FROM 'file:///Film.csv' AS Film CREATE (f:Film {Tytul: Film.Tytul, Premiera: Film.Premiera, Czas_trwania_w_min: Film.Czas_trwania_w_min, Rezyser: Film.Rezyser, Ranking: Film.Ranking})
+
+importuje Filmy
+-------------------------
+LOAD CSV WITH HEADERS FROM 'file:///Produkcja.csv' AS Produkcja CREATE (p:Produkcja {kraj_produkcji: Produkcja.kraj_produkcji})
+
+importuje kraje produkcji
+---------------------------
+LOAD CSV WITH HEADERS FROM 'file:///Gatunek.csv' AS Gatunek CREATE (g:Gatunek {name: Gatunek.name})
+
+importuje gatunki filmowe
+-----------------------------------
+LOAD CSV WITH HEADERS FROM 'file:///Uzytkownik.csv' AS Osoba CREATE (o:Osoba {Imie: Osoba.Imie, Nazwisko: Osoba.Nazwisko, Login: Osoba.Login})
+
+importuje uzytkownikow
+
+
+UWAGA!!!
+Pliki .csv muszą znajodować się w " C:\Users\Nazwa_Użytkownika\.Neo4jDesktop\relate-data\dbmss\dbms-526eb55f-18c6-4bd5-8648-5af7a33ce591\import " 
